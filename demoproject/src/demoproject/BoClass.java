@@ -7,6 +7,7 @@ public class BoClass {
 	private	String gender;
 	private	String city1;
 	
+	
 	public String getName() {
 		return name;
 	}
