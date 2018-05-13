@@ -5,7 +5,8 @@ public class BoClass {
 	
 	private	String course;
 	private	String gender;
-	private	String city;
+	private	String city1;
+	
 	public String getName() {
 		return name;
 	}
@@ -24,11 +25,9 @@ public class BoClass {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public String getCity() {
-		return city;
-	}
-	public void setCity(String city) {
-		this.city = city;
+	@Override
+	public String toString() {
+		return "BoClass [name=" + name + ", course=" + course + ", gender=" + gender + ", city=" + city1 + "]";
 	}
 	
 	
